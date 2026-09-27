@@ -41,7 +41,7 @@
 .sky__keystone { position: absolute; left: 50%; top: -17px; margin-left: -17px; }
 
 .moon-chip {
-  position: absolute; right: min(360px, 34vw); bottom: 70px;
+  position: absolute; inset-inline-end: min(360px, 34vw); bottom: 70px;
   display: flex; align-items: center; gap: 14px;
   padding: 14px 20px 14px 14px; border-radius: 20px; border: 1px solid var(--line); box-shadow: var(--shadow);
 }
@@ -134,12 +134,12 @@
 @media (max-width: 1080px) {
   .bento { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .card__preview, .card__timeline { display: none; }
-  .moon-chip { right: auto; left: calc(100% - 440px - var(--gutter) - 48px); }
+  .moon-chip { inset-inline-end: auto; inset-inline-start: calc(100% - 440px - var(--gutter) - 48px); }
 }
 @media (max-width: 860px) {
   .hero { grid-template-columns: 1fr; }
   .sky { max-width: 420px; justify-self: center; }
-  .moon-chip { position: relative; right: auto; left: auto; bottom: auto; justify-self: center; margin-top: -84px; z-index: 2; }
+  .moon-chip { position: relative; inset: auto; justify-self: center; margin-top: -84px; z-index: 2; }
   .daily__panel { grid-template-columns: 1fr; }
   .daily__art { display: none; }
   .hub-footer { grid-template-columns: 1fr; }
@@ -154,3 +154,12 @@
   .projects__filters { width: 100%; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); width: calc(100% + var(--gutter) * 2); }
   .hero__actions .sk-btn { flex: 1 1 auto; }
 }
+
+/* ---------- Arabic ---------- */
+.daily__ar { margin: -8px 0 0; font-size: clamp(20px, 2.2vw, 26px); line-height: 1.9; color: #EBC46F; }
+[dir="rtl"] .daily__quote.sk-ar { font-family: var(--font-naskh); font-weight: 400; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.8; }
+[dir="rtl"] .hero__title { font-size: clamp(40px, 5.4vw, 70px); max-width: 16ch; }
+[dir="rtl"] .card__title { font-size: clamp(26px, 2.4vw, 32px); }
+[dir="rtl"] .card__desc { font-family: var(--font-ar-text); line-height: 1.85; }
+[dir="rtl"] .card__timeline { direction: ltr; }
+[dir="rtl"] .tl-row span { font-family: var(--font-ar-ui); }

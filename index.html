@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="A small collection of Islamic tools, apps and reading by Hussein Benz — an Islamic Q&A, a Hijri calendar, a hadith generator, an encyclopedia of jinn in Islam, an adhan app, and an illustrated guide to the fiqh of prayer.">
+<meta name="description" content="A small collection of Islamic tools, apps and reading by Hussein Benz — an Islamic Q&A, a Hijri calendar, a hadith generator, an encyclopedia of jinn in Islam, an adhan app, and an illustrated guide to the fiqh of prayer. In Arabic and English.">
 <meta name="theme-color" content="#F6F4EE">
-<title>Islamic Projects — Hussein Benz</title>
-<script>(function(){var t;try{t=localStorage.getItem('sakina-theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+<title>Islamic Projects · المشاريع الإسلامية — Hussein Benz</title>
+<script>(function(){var d=document.documentElement,t,l;try{t=localStorage.getItem('sakina-theme');l=localStorage.getItem('sakina-lang')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}var q=/[?&]lang=(ar|en)/.exec(location.search);if(q)l=q[1];if(l!=='ar'&&l!=='en'){l=(navigator.language||'').slice(0,2)==='ar'?'ar':'en'}d.setAttribute('data-theme',t);d.setAttribute('data-lang',l);d.lang=l;d.dir=l==='ar'?'rtl':'ltr'})();</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230E7C72' d='M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z'/%3E%3Ccircle cx='12' cy='12' r='4.4' fill='%23F6F4EE'/%3E%3Ccircle cx='12' cy='12' r='1.9' fill='%23D9A441'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/sakina.css">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/sakina.css?v=sk2">
+<link rel="stylesheet" href="css/style.css?v=sk2">
 </head>
 <body class="sk-project-hub">
-<a class="sk-skip" href="#main">Skip to content</a>
+<a class="sk-skip" href="#main"><span class="en">Skip to content</span><span class="ar">تخطَّ إلى المحتوى</span></a>
 <div class="sk-pattern" aria-hidden="true"></div>
 
 <header class="sk-header">
   <div class="sk-container sk-header__inner">
-    <a class="sk-brand" href="./" aria-label="Islamic Projects — home">
+    <a class="sk-brand" href="./">
       <svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><path style="fill:var(--primary)" d="M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z"/><circle cx="12" cy="12" r="4.4" style="fill:var(--bg)"/><circle cx="12" cy="12" r="1.9" style="fill:var(--gold-bright)"/></svg>
-      <span class="sk-brand__text"><span class="sk-brand__name">Islamic Projects</span><span class="sk-brand__sub" lang="ar">مشاريع إسلامية</span></span>
+      <span class="sk-brand__text"><span class="sk-brand__name"><span class="en">Islamic Projects</span><span class="ar">المشاريع الإسلامية</span></span><span class="sk-brand__sub"><span class="en" lang="ar">المشاريع الإسلامية</span><span class="ar" lang="en">Islamic Projects</span></span></span>
     </a>
     <nav class="sk-header__nav" aria-label="Site">
-      <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="#projects">Projects</a>
-      <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="#hadith">Today's hadith</a>
-      <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="https://husseinbenz.github.io/">husseinbenz.github.io
+      <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="#projects"><span class="en">Projects</span><span class="ar">المشاريع</span></a>
+      <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-sm" href="#hadith"><span class="en">Today's hadith</span><span class="ar">حديث اليوم</span></a>
+      <a class="sk-btn sk-btn--ghost sk-btn--sm sk-hide-md" href="https://husseinbenz.github.io/" lang="en">husseinbenz.github.io
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+      <button class="sk-btn sk-btn--ghost sk-btn--sm sk-lang-btn" type="button" data-sk-lang-toggle><span class="en" lang="ar">العربية</span><span class="ar" lang="en">English</span></button>
       <button class="sk-icon-btn sk-theme-btn" type="button" data-sk-theme-toggle aria-label="Switch to night theme">
         <svg class="sk-i-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
         <svg class="sk-i-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -44,12 +45,12 @@
         <svg class="sk-twinkle" width="14" height="14" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg>
         <span id="greeting">As-salāmu ʿalaykum — peace be upon you</span>
       </span>
-      <h1 class="sk-display hero__title sk-rise sk-d1">A small doorway into everything I've built <em>for the deen</em></h1>
-      <p class="sk-lede hero__lede sk-rise sk-d2">Six small, independent projects. Pick one below — each opens in its own tab.</p>
+      <h1 class="sk-display hero__title sk-rise sk-d1"><span class="en">A small doorway into everything I've built <em>for the deen</em></span><span class="ar">بابٌ صغير إلى كل ما صنعتُه <em>لخدمة الدين</em></span></h1>
+      <p class="sk-lede hero__lede sk-rise sk-d2"><span class="en">Six small, independent projects. Pick one below — each opens in its own tab.</span><span class="ar">ستة مشاريع صغيرة مستقلة. اختر واحدًا منها أدناه — يُفتح كلٌّ منها في صفحته.</span></p>
       <div class="hero__actions sk-rise sk-d3">
-        <a class="sk-btn sk-btn--primary sk-btn--lg" href="#projects">Explore the projects
+        <a class="sk-btn sk-btn--primary sk-btn--lg" href="#projects"><span class="en">Explore the projects</span><span class="ar">استكشف المشاريع</span>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="m6 13 6 6 6-6"/></svg></a>
-        <a class="sk-btn sk-btn--line sk-btn--lg" href="#hadith">Read today's hadith</a>
+        <a class="sk-btn sk-btn--line sk-btn--lg" href="#hadith"><span class="en">Read today's hadith</span><span class="ar">اقرأ حديث اليوم</span></a>
       </div>
     </div>
 
@@ -89,21 +90,21 @@
     </div>
     <div class="moon-chip sk-glass sk-float sk-rise sk-d3" id="moonChip">
       <span class="sk-moon moon-chip__moon" id="smallMoon"></span>
-      <span class="moon-chip__text"><strong id="hijriToday">—</strong><span id="moonPhase">The moon tonight</span></span>
+      <span class="moon-chip__text"><strong id="hijriToday">—</strong><span id="moonPhase"></span></span>
     </div>
   </section>
 
   <section class="projects sk-container" id="projects" aria-labelledby="projectsTitle">
     <div class="projects__head">
       <div>
-        <span class="sk-eyebrow">The projects</span>
-        <h2 class="sk-display projects__title" id="projectsTitle">Pick a <em>door</em></h2>
+        <span class="sk-eyebrow"><span class="en">The projects</span><span class="ar">المشاريع</span></span>
+        <h2 class="sk-display projects__title" id="projectsTitle"><span class="en">Pick a <em>door</em></span><span class="ar">اختر <em>بابًا</em></span></h2>
       </div>
       <div class="sk-scroll-x projects__filters" role="group" aria-label="Filter projects">
-        <button class="sk-chip" type="button" data-filter="all" aria-pressed="true">All six</button>
-        <button class="sk-chip" type="button" data-filter="read" aria-pressed="false">To read</button>
-        <button class="sk-chip" type="button" data-filter="use" aria-pressed="false">To use</button>
-        <button class="sk-chip" type="button" data-filter="install" aria-pressed="false">To install</button>
+        <button class="sk-chip" type="button" data-filter="all" aria-pressed="true"><span class="en">All six</span><span class="ar">الستة كلها</span></button>
+        <button class="sk-chip" type="button" data-filter="read" aria-pressed="false"><span class="en">To read</span><span class="ar">للقراءة</span></button>
+        <button class="sk-chip" type="button" data-filter="use" aria-pressed="false"><span class="en">To use</span><span class="ar">للاستخدام</span></button>
+        <button class="sk-chip" type="button" data-filter="install" aria-pressed="false"><span class="en">To install</span><span class="ar">للتثبيت</span></button>
       </div>
     </div>
 
@@ -111,20 +112,20 @@
       <a class="card card--wide sk-card sk-lift" data-group="read" href="https://husseinbenz.github.io/Islam-QnA/" style="--tile: var(--qna); --tile-soft: var(--qna-soft)">
         <div class="card__body">
           <span class="sk-tile"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.6L3 20.5l1.5-5.2A8.5 8.5 0 1 1 21 11.5Z"/><path d="M9.8 9.3a2.3 2.3 0 0 1 4.4.9c0 1.6-2.2 2-2.2 3.3"/><path d="M12 16.3h.01"/></svg></span>
-          <h3 class="sk-display card__title">Islam Q&amp;A</h3>
-          <p class="card__desc">A fully static, multilingual questions-and-answers platform — search, browse and read, no server required.</p>
+          <h3 class="sk-display card__title"><span class="en">Islam Q&amp;A</span><span class="ar">أسئلة وأجوبة عن الإسلام</span></h3>
+          <p class="card__desc"><span class="en">A fully static, multilingual questions-and-answers platform — search, browse and read, no server required.</span><span class="ar">منصة أسئلة وأجوبة ثابتة ومتعددة اللغات — ابحث وتصفّح واقرأ، دون حاجة إلى خادم.</span></p>
           <div class="card__foot">
-            <span class="card__tags"><span class="sk-tag">Web</span><span class="sk-tag">English · <span lang="ar">العربية</span></span></span>
-            <span class="card__cta">Open <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+            <span class="card__tags"><span class="sk-tag"><span class="en">Web</span><span class="ar">ويب</span></span><span class="sk-tag"><span lang="en">English</span> · <span lang="ar">العربية</span></span></span>
+            <span class="card__cta"><span class="en">Open</span><span class="ar">افتح</span> <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
           </div>
         </div>
         <div class="card__preview" aria-hidden="true">
-          <div class="mini-search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>What is Isl<span class="mini-caret">am</span></span></div>
+          <div class="mini-search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="en">What is Isl<span class="mini-caret">am</span></span><span class="ar">ما هو الإسل<span class="mini-caret">ام</span></span></div>
           <ul class="mini-hits">
-            <li class="is-on">What is <b>Islam</b>? <span>→</span></li>
-            <li>What are the Five Pillars of <b>Islam</b>?</li>
-            <li>How can I learn more about <b>Islam</b>?</li>
-            <li>Is <b>Islam</b> compatible with science?</li>
+            <li class="is-on"><span class="en">What is <b>Islam</b>?</span><span class="ar">ما هو <b>الإسلام</b>؟</span> <span>→</span></li>
+            <li><span class="en">What are the Five Pillars of <b>Islam</b>?</span><span class="ar">ما هي أركان <b>الإسلام</b> الخمسة؟</span></li>
+            <li><span class="en">How can I learn more about <b>Islam</b>?</span><span class="ar">كيف أتعلّم المزيد عن <b>الإسلام</b>؟</span></li>
+            <li><span class="en">Is <b>Islam</b> compatible with science?</span><span class="ar">هل يتوافق <b>الإسلام</b> مع العلم؟</span></li>
           </ul>
         </div>
       </a>
@@ -135,11 +136,11 @@
             <span class="sk-tile"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/><path d="M19 2v4M17 4h4"/></svg></span>
             <span class="sk-tag sk-tag--gold" id="ramadanChip" hidden></span>
           </div>
-          <h3 class="sk-display card__title">Islamic Calendar</h3>
-          <p class="card__desc">An Umm al-Qura Hijri calendar with sacred days, fasting days and a hadith for each occasion.</p>
+          <h3 class="sk-display card__title"><span class="en">Islamic Calendar</span><span class="ar">التقويم الإسلامي</span></h3>
+          <p class="card__desc"><span class="en">An Umm al-Qura Hijri calendar with sacred days, fasting days and a hadith for each occasion.</span><span class="ar">تقويم هجري وفق أم القرى، بالأيام المباركة وأيام الصيام وحديثٍ لكل مناسبة.</span></p>
           <div class="card__foot">
-            <span class="card__tags"><span class="sk-tag">English · <span lang="ar">العربية</span></span></span>
-            <span class="card__cta">Open <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+            <span class="card__tags"><span class="sk-tag"><span lang="en">English</span> · <span lang="ar">العربية</span></span></span>
+            <span class="card__cta"><span class="en">Open</span><span class="ar">افتح</span> <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
           </div>
         </div>
       </a>
@@ -150,11 +151,11 @@
             <span class="sk-tile"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 12h-5"/><path d="M15 8h-5"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg></span>
             <svg class="sk-star" width="26" height="26" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="none" style="stroke:var(--hadith)" stroke-width="1.3" stroke-linejoin="round" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg>
           </div>
-          <h3 class="sk-display card__title">Hadith Generator</h3>
-          <p class="card__desc">Draw a random, well-known authentic hadith with its narrator and reference. Good for a khutbah or a quiet moment.</p>
+          <h3 class="sk-display card__title"><span class="en">Hadith Generator</span><span class="ar">مولّد الأحاديث</span></h3>
+          <p class="card__desc"><span class="en">Draw a well-known authentic hadith with its narrator and reference — then turn it into an image to share.</span><span class="ar">اسحب حديثًا صحيحًا مشهورًا مع راويه ومصدره، ثم حوّله إلى صورة جميلة لمشاركتها.</span></p>
           <div class="card__foot">
-            <span class="card__tags"><span class="sk-tag">30 hadiths</span></span>
-            <span class="card__cta">Draw one <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+            <span class="card__tags"><span class="sk-tag"><span class="en">30 hadiths</span><span class="ar">٣٠ حديثًا</span></span><span class="sk-tag"><span class="en">Images</span><span class="ar">صور</span></span></span>
+            <span class="card__cta"><span class="en">Draw one</span><span class="ar">اسحب حديثًا</span> <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
           </div>
         </div>
       </a>
@@ -165,11 +166,11 @@
             <span class="sk-tile"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg></span>
             <svg class="sk-star" width="26" height="26" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="none" style="stroke:var(--jinn)" stroke-width="1.3" stroke-linejoin="round" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg>
           </div>
-          <h3 class="sk-display card__title">Jinn in Islam</h3>
-          <p class="card__desc">An English encyclopedia on the jinn, adapted from al-Sabeel's video series, with full references.</p>
+          <h3 class="sk-display card__title"><span class="en">Jinn in Islam</span><span class="ar">الجن في الإسلام</span></h3>
+          <p class="card__desc"><span class="en">An English encyclopedia on the jinn, adapted from al-Sabeel's video series, with full references.</span><span class="ar">موسوعة باللغة الإنجليزية عن الجن، مقتبسة من سلسلة «السبيل» المرئية، بمراجع كاملة.</span></p>
           <div class="card__foot">
-            <span class="card__tags"><span class="sk-tag">15 chapters</span></span>
-            <span class="card__cta">Read <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+            <span class="card__tags"><span class="sk-tag"><span class="en">15 chapters</span><span class="ar">١٥ فصلًا</span></span></span>
+            <span class="card__cta"><span class="en">Read</span><span class="ar">اقرأ</span> <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
           </div>
         </div>
       </a>
@@ -180,11 +181,11 @@
             <span class="sk-tile"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 21h19"/><path d="M4 21v-6.5h11V21"/><path d="M4.5 14.5a5 5 0 0 1 10 0"/><path d="M9.5 9.5v-2"/><path d="M8 21v-2.5a1.5 1.5 0 0 1 3 0V21"/><path d="M18 21V10M21 21V10"/><path d="M17.3 10h4.4"/><path d="m18 10 1.5-4.5L21 10"/></svg></span>
             <svg class="sk-star" width="26" height="26" viewBox="-12 -12 24 24" aria-hidden="true"><path fill="none" style="stroke:var(--adhan)" stroke-width="1.3" stroke-linejoin="round" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg>
           </div>
-          <h3 class="sk-display card__title">Mawaqit Adhan</h3>
-          <p class="card__desc">A Windows tray app that calls the adhan from your own masjid's Mawaqit timetable. Free download.</p>
+          <h3 class="sk-display card__title"><span class="en">Mawaqit Adhan</span><span class="ar">أذان مواقيت</span></h3>
+          <p class="card__desc"><span class="en">A Windows tray app that calls the adhan from your own masjid's Mawaqit timetable. Free download.</span><span class="ar">تطبيق صغير لويندوز يرفع الأذان وفق جدول مسجدك على منصة «مواقيت». تنزيل مجاني.</span></p>
           <div class="card__foot">
-            <span class="card__tags"><span class="sk-tag">Windows</span><span class="sk-tag">beta</span></span>
-            <span class="card__cta">Download <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+            <span class="card__tags"><span class="sk-tag"><span class="en">Windows</span><span class="ar">ويندوز</span></span><span class="sk-tag"><span class="en">beta</span><span class="ar">تجريبي</span></span></span>
+            <span class="card__cta"><span class="en">Download</span><span class="ar">تنزيل</span> <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
           </div>
         </div>
       </a>
@@ -193,21 +194,21 @@
         <div class="card__body">
           <div class="card__top">
             <span class="sk-tile"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M6 21V11a6 6 0 0 1 12 0v10"/><path d="M9.5 21v-6.5a2.5 2.5 0 0 1 5 0V21"/><path d="M12 3V1.5"/></svg></span>
-            <span class="sk-tag" style="background:var(--fiqh-soft);color:var(--fiqh)">New</span>
+            <span class="sk-tag" style="background:var(--fiqh-soft);color:var(--fiqh)"><span class="en">New</span><span class="ar">جديد</span></span>
           </div>
-          <h3 class="sk-display card__title">Fiqh al-Ṣalāt</h3>
-          <p class="card__desc">The times of the five prayers, the signs of their entry and how the prayer is performed — compared across the four schools, with a timeline you can play.</p>
+          <h3 class="sk-display card__title"><span class="en">Fiqh al-Ṣalāt</span><span class="ar">فقه الصلاة</span></h3>
+          <p class="card__desc"><span class="en">The times of the five prayers, the signs of their entry and how the prayer is performed — compared across the four schools, with a timeline you can play and a whole-year chart for your country.</span><span class="ar">مواقيت الصلوات الخمس وعلامات دخولها وصفة الصلاة — مقارنةً بين المذاهب الأربعة، مع مخطط زمني تفاعلي ورسم للمواقيت على مدار العام في بلدك.</span></p>
           <div class="card__foot">
-            <span class="card__tags"><span class="sk-tag">Four madhhabs</span><span class="sk-tag">English · <span lang="ar">العربية</span></span></span>
-            <span class="card__cta">Explore <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+            <span class="card__tags"><span class="sk-tag"><span class="en">Four madhhabs</span><span class="ar">المذاهب الأربعة</span></span><span class="sk-tag"><span lang="en">English</span> · <span lang="ar">العربية</span></span></span>
+            <span class="card__cta"><span class="en">Explore</span><span class="ar">استكشف</span> <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
           </div>
         </div>
         <div class="card__timeline" aria-hidden="true">
-          <div class="tl-row"><span>Fajr</span><i><b style="left:4%;width:7%;background:var(--cal)"></b><b style="left:11%;width:6%;background:var(--gold-bright)"></b></i></div>
-          <div class="tl-row"><span>Dhuhr</span><i><b style="left:34%;width:9%;background:var(--gold-bright)"></b><b style="left:43%;width:9%;background:var(--cal)"></b></i></div>
-          <div class="tl-row"><span>ʿAṣr</span><i><b style="left:53%;width:11%;background:var(--gold-bright)"></b><b style="left:64%;width:4%;background:var(--adhan)"></b></i></div>
-          <div class="tl-row"><span>Maghrib</span><i><b style="left:68%;width:3%;background:var(--gold-bright)"></b><b style="left:71%;width:4%;background:var(--cal)"></b><b style="left:75%;width:2%;background:var(--adhan)"></b></i></div>
-          <div class="tl-row"><span>ʿIshāʾ</span><i><b style="left:77%;width:9%;background:var(--gold-bright)"></b><b style="left:86%;width:7%;background:var(--cal)"></b><b style="left:93%;width:7%;background:var(--adhan)"></b></i></div>
+          <div class="tl-row"><span><span class="en">Fajr</span><span class="ar">الفجر</span></span><i><b style="left:4%;width:7%;background:var(--cal)"></b><b style="left:11%;width:6%;background:var(--gold-bright)"></b></i></div>
+          <div class="tl-row"><span><span class="en">Dhuhr</span><span class="ar">الظهر</span></span><i><b style="left:34%;width:9%;background:var(--gold-bright)"></b><b style="left:43%;width:9%;background:var(--cal)"></b></i></div>
+          <div class="tl-row"><span><span class="en">ʿAṣr</span><span class="ar">العصر</span></span><i><b style="left:53%;width:11%;background:var(--gold-bright)"></b><b style="left:64%;width:4%;background:var(--adhan)"></b></i></div>
+          <div class="tl-row"><span><span class="en">Maghrib</span><span class="ar">المغرب</span></span><i><b style="left:68%;width:3%;background:var(--gold-bright)"></b><b style="left:71%;width:4%;background:var(--cal)"></b><b style="left:75%;width:2%;background:var(--adhan)"></b></i></div>
+          <div class="tl-row"><span><span class="en">ʿIshāʾ</span><span class="ar">العشاء</span></span><i><b style="left:77%;width:9%;background:var(--gold-bright)"></b><b style="left:86%;width:7%;background:var(--cal)"></b><b style="left:93%;width:7%;background:var(--adhan)"></b></i></div>
           <span class="tl-head"></span>
         </div>
       </a>
@@ -221,14 +222,15 @@
         <svg class="sk-slow-spin" width="120" height="120" viewBox="-12 -12 24 24"><path fill="none" stroke="#EBC46F" stroke-width=".7" stroke-linejoin="round" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/><path fill="none" stroke="#EBC46F" stroke-width=".5" opacity=".6" transform="scale(.62) rotate(22.5)" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/><circle r="1.6" fill="#EBC46F"/></svg>
       </div>
       <div class="daily__text">
-        <div class="daily__kicker"><span class="sk-eyebrow" id="dailyTitle">Hadith of the day</span><span class="sk-tag sk-tag--gold" id="dailyTopic">Worship</span></div>
-        <blockquote class="sk-display daily__quote" id="dailyText">“The most beloved of deeds to Allah are those done consistently, even if small.”</blockquote>
-        <p class="daily__ref">Narrated by <span id="dailyNarrator">Aisha</span> · <strong id="dailyRef">Sahih al-Bukhari 6465, Sahih Muslim 782</strong></p>
+        <div class="daily__kicker"><span class="sk-eyebrow" id="dailyTitle"><span class="en">Hadith of the day</span><span class="ar">حديث اليوم</span></span><span class="sk-tag sk-tag--gold" id="dailyTopic"></span></div>
+        <blockquote class="sk-display daily__quote" id="dailyText"></blockquote>
+        <p class="daily__ar sk-ar" id="dailyAr" lang="ar" dir="rtl"></p>
+        <p class="daily__ref"><span class="en">Narrated by</span><span class="ar">الراوي:</span> <span id="dailyNarrator"></span> · <strong id="dailyRef"></strong></p>
         <div class="daily__actions">
-          <a class="sk-btn sk-btn--primary" href="https://husseinbenz.github.io/hadith-generator/">Draw another <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+          <a class="sk-btn sk-btn--primary" href="https://husseinbenz.github.io/hadith-generator/" id="dailyLink"><span class="en">Draw another</span><span class="ar">حديث آخر</span> <svg class="sk-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
           <button class="sk-btn sk-btn--ghost" type="button" id="copyDaily">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-            Copy</button>
+            <span class="en">Copy</span><span class="ar">نسخ</span></button>
         </div>
       </div>
     </div>
@@ -236,7 +238,7 @@
 
   <section class="sk-container note">
     <div class="sk-divider note__divider" aria-hidden="true"><svg width="16" height="16" viewBox="-12 -12 24 24"><path fill="currentColor" d="M11 0L7.78 3.22L7.78 7.78L3.22 7.78L0 11L-3.22 7.78L-7.78 7.78L-7.78 3.22L-11 0L-7.78 -3.22L-7.78 -7.78L-3.22 -7.78L0 -11L3.22 -7.78L7.78 -7.78L7.78 -3.22Z"/></svg></div>
-    <p>Most of these are reading projects and small tools, not a substitute for a qualified scholar — please verify anything that matters with a primary source.</p>
+    <p><span class="en">Most of these are reading projects and small tools, not a substitute for a qualified scholar — please verify anything that matters with a primary source.</span><span class="ar">معظم هذه المشاريع قراءاتٌ وأدوات صغيرة، وليست بديلًا عن عالمٍ مؤهل — فتحقّق مما يهمّك من مصدره الأصلي.</span></p>
   </section>
 </main>
 
@@ -245,22 +247,22 @@
     <div class="hub-footer__about">
       <span class="hub-footer__brand">
         <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path style="fill:var(--primary)" d="M23 12L19.78 15.22L19.78 19.78L15.22 19.78L12 23L8.78 19.78L4.22 19.78L4.22 15.22L1 12L4.22 8.78L4.22 4.22L8.78 4.22L12 1L15.22 4.22L19.78 4.22L19.78 8.78Z"/><circle cx="12" cy="12" r="4.4" style="fill:var(--bg)"/><circle cx="12" cy="12" r="1.9" style="fill:var(--gold-bright)"/></svg>
-        Islamic Projects</span>
-      <p>Built by <a class="sk-link" href="https://husseinbenz.github.io/">Hussein Benz</a>. Source for each project is linked from its own page.</p>
+        <span class="en">Islamic Projects</span><span class="ar">المشاريع الإسلامية</span></span>
+      <p><span class="en">Built by <a class="sk-link" href="https://husseinbenz.github.io/">Hussein Benz</a>. Source for each project is linked from its own page.</span><span class="ar">صنعها <a class="sk-link" href="https://husseinbenz.github.io/" lang="en">Hussein Benz</a>، وتجد مصدر كل مشروع في صفحته.</span></p>
     </div>
     <nav class="hub-footer__links" aria-label="All projects">
-      <a href="https://husseinbenz.github.io/Islam-QnA/"><i style="background:var(--qna)"></i>Islam Q&amp;A</a>
-      <a href="https://husseinbenz.github.io/islamic-calendar/"><i style="background:var(--cal)"></i>Islamic Calendar</a>
-      <a href="https://husseinbenz.github.io/hadith-generator/"><i style="background:var(--hadith)"></i>Hadith Generator</a>
-      <a href="https://husseinbenz.github.io/islam-and-jinn-preview/"><i style="background:var(--jinn)"></i>Jinn in Islam</a>
-      <a href="https://husseinbenz.github.io/mawaqit-adhan/"><i style="background:var(--adhan)"></i>Mawaqit Adhan</a>
-      <a href="https://husseinbenz.github.io/fiqh-al-salat/"><i style="background:var(--fiqh)"></i>Fiqh al-Ṣalāt</a>
+      <a href="https://husseinbenz.github.io/Islam-QnA/"><i style="background:var(--qna)"></i><span class="en">Islam Q&amp;A</span><span class="ar">أسئلة وأجوبة</span></a>
+      <a href="https://husseinbenz.github.io/islamic-calendar/"><i style="background:var(--cal)"></i><span class="en">Islamic Calendar</span><span class="ar">التقويم الإسلامي</span></a>
+      <a href="https://husseinbenz.github.io/hadith-generator/"><i style="background:var(--hadith)"></i><span class="en">Hadith Generator</span><span class="ar">مولّد الأحاديث</span></a>
+      <a href="https://husseinbenz.github.io/islam-and-jinn-preview/"><i style="background:var(--jinn)"></i><span class="en">Jinn in Islam</span><span class="ar">الجن في الإسلام</span></a>
+      <a href="https://husseinbenz.github.io/mawaqit-adhan/"><i style="background:var(--adhan)"></i><span class="en">Mawaqit Adhan</span><span class="ar">أذان مواقيت</span></a>
+      <a href="https://husseinbenz.github.io/fiqh-al-salat/"><i style="background:var(--fiqh)"></i><span class="en">Fiqh al-Ṣalāt</span><span class="ar">فقه الصلاة</span></a>
     </nav>
-    <p class="hub-footer__dua"><span class="sk-ar" lang="ar">رَّبِّ زِدْنِى عِلْمًا</span><span>“My Lord, increase me in knowledge.” · Ṭā Hā 20:114</span></p>
+    <p class="hub-footer__dua"><span class="sk-ar" lang="ar">رَّبِّ زِدْنِى عِلْمًا</span><span class="en">“My Lord, increase me in knowledge.” · Ṭā Hā 20:114</span><span class="ar">سورة طه: ١١٤</span></p>
   </div>
 </footer>
 
-<script src="js/sakina.js"></script>
-<script src="js/hub.js"></script>
+<script src="js/sakina.js?v=sk2"></script>
+<script src="js/hub.js?v=sk2"></script>
 </body>
 </html>
