@@ -5,9 +5,8 @@
   var $ = function (id) { return document.getElementById(id); };
   var now = new Date();
   var hour = now.getHours();
-  var AR_DIGITS = '٠١٢٣٤٥٦٧٨٩';
   function ar() { return Sakina.lang() === 'ar'; }
-  function num(n) { return ar() ? String(n).replace(/\d/g, function (d) { return AR_DIGITS[d]; }) : String(n); }
+  function num(n) { return Sakina.num(n); }
   function T(en, arText) { return ar() ? arText : en; }
 
   /* The arch shows the sky you would see right now */
