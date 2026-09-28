@@ -11,3 +11,5 @@ Links out to:
 - [Hadith Generator](https://husseinbenz.github.io/hadith-generator/)
 - [Jinn in Islam](https://husseinbenz.github.io/islam-and-jinn-preview/)
 - [Mawaqit Adhan](https://husseinbenz.github.io/mawaqit-adhan/)
+- [Fiqh al-Ṣalāt](https://husseinbenz.github.io/fiqh-al-salat/)
+- [The Islamic Index](https://husseinbenz.github.io/The-Islamic-Index/)

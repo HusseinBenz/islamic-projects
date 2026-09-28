@@ -73,6 +73,8 @@
 .card.is-hidden { display: none; }
 .card--full { grid-column: 1 / -1; min-height: 260px; }
 .bento.is-filtered .card--full { grid-column: auto; }
+.card--wide-lg { grid-column: span 2; min-height: 260px; }
+.bento.is-filtered .card--wide-lg { grid-column: auto; }
 .bento.is-filtered .card__timeline { display: none; }
 .card__timeline { position: relative; flex: 0 1 520px; align-self: center; display: flex; flex-direction: column; gap: 10px; padding: 20px 22px; border-radius: 20px; background: var(--bg); border: 1px solid var(--line); }
 .tl-row { display: grid; grid-template-columns: 62px minmax(0, 1fr); align-items: center; gap: 10px; font-size: 12.5px; font-weight: 700; color: var(--text-2); }
@@ -134,6 +136,7 @@
 @media (max-width: 1080px) {
   .bento { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .card__preview, .card__timeline { display: none; }
+  .card--wide-lg { grid-column: auto; }
   .moon-chip { inset-inline-end: auto; inset-inline-start: calc(100% - 440px - var(--gutter) - 48px); }
 }
 @media (max-width: 860px) {
